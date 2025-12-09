@@ -16,7 +16,7 @@ int main()
     Klacc();
 
     system("cls");
-    cout << "        СБЕРБАНК ОНЛАЙН v1.0 by Даниил Прасков 2025" << endl;
+    cout << "        БАНК ОНЛАЙН v1.0 by Даниил Прасков 2025" << endl;
     cout << "        ============================================" << endl;
 
     while(1)
@@ -66,7 +66,7 @@ int main()
                     goto end2;
                 }
             }
-            cout << "Такого окаунта нет" << endl;
+            cout << "Такого аккаунта нет" << endl;
             end2:;
             _getch();
             system("cls");
@@ -162,7 +162,8 @@ int main()
         if(x == 6) break;
     }
     
-    cout << "Спасибо что выбрали Сбер от Данила Прасоква" << endl;
+    cout << "Спасибо что выбрали наш банк" << endl;
     system("pause");
     return 0;
+
 }
