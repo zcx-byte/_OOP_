@@ -12,6 +12,7 @@ int card[10000];
 bool blocked[10000];
 int total = 0;
 
+// Класс ничего не возвращает
 void Klacc()
 {
     
