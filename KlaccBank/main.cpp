@@ -13,6 +13,7 @@ int main()
     // Переключаем консоль Windows на UTF-8
     system("chcp 65001 > nul");
 
+    // используем Класс
     Klacc();
 
     system("cls");
